@@ -40,8 +40,8 @@ echo "IP=" >> /var/lib/scrz-prem/ipvps.conf
 sudo at install squid -y
 sudo apt install net-tools -y
 sudo apt install vnstat -y
-wget -q https://raw.githubusercontent.com/gigclone/sc/main/tools.sh && chmod +x tools.sh && ./tools.sh
-rm tools.sh
+wget -q https://raw.githubusercontent.com/gigclone/asu/main/jembot.sh && chmod +x jembot.sh && ./jembot.sh
+rm jembot.sh
 clear
 # izin
 MYIP=$(wget -qO- ipinfo.io/ip);
